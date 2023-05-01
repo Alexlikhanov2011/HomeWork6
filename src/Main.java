@@ -86,7 +86,7 @@ public static void task3(){
         System.out.println("Задание 10");
        int number = 2;
         for (int i = 1; i <= 10; i= i+1) {
-            System.out.println( number + " * " + i + " = " + number * i );
+            System.out.println( number + "*" + i + "=" + number * i );
 
         }
     }
