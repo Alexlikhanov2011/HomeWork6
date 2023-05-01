@@ -52,22 +52,25 @@ public static void task3(){
     public static void task6() {
         System.out.println("Задание 6");
         for (int i = 7; i <= 98; i = i +7) {
-            System.out.println("Итерация цикла " + i);
+            System.out.print(i + " ");
 
         }
+        System.out.println();
     }
+
     public static void task7() {
-        System.out.println("Задание 7");
+        System.out.println("Задание 7 ");
         for (int i = 1; i <= 512; i = i *2) {
-            System.out.println("Итерация цикла " + i);
+            System.out.print(i + " " );
 
         }
+        System.out.println();
     }
     public static void task8() {
         System.out.println("Задание 8");
         int salary = 29000;
         int total = 0;
-        for (int i = 0; i < 12; i++) {
+        for (int i = 1; i < 12; i++) {
             total = total + salary;
         }
         System.out.println("Месяц " + salary + " сумма накоплений равна " + total + " рубей");
@@ -77,7 +80,7 @@ public static void task3(){
         System.out.println("Задание 9");
         int salary = 29000;
         int total = 0;
-        for (int i = 0; i <= 12; i++) {
+        for (int i = 1; i <= 12; i++) {
             total = total + total / 100;
             total = total + salary;
             System.out.println("Месяц " + i + " сумма накоплений равна " + total + " рубей");
