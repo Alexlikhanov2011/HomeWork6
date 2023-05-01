@@ -43,8 +43,9 @@ public static void task3(){
     }
     public static void task5() {
         System.out.println("Задание 5");
-        for (int i = 1904; i <= 2096; i = i +4) {
-            System.out.println(i + " Год является високосным.");
+        for (int year = 1904; year <= 2096; year ++) {
+            if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0)
+                System.out.println(year + " Год является високосным.");
 
         }
     }
